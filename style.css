@@ -4,7 +4,6 @@ body {
   box-sizing: border-box;
 }
 .container {
-  /* margin: 0 8%; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -139,7 +138,15 @@ h1 {
   margin: 0 10px;
 }
 /* Upcomming Match  Design end*/
-
+/* View All  */
+.view-all-button {
+  display: none;
+}
+.view-all {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
 /* Footer  */
 .footer-container {
   width: 100%;
@@ -156,14 +163,6 @@ h1 {
 }
 .footer-button a:hover {
   color: #ffffff;
-}
-.view-all-button {
-  display: none;
-}
-.view-all {
-  display: flex;
-  justify-content: center;
-  margin: 20px 0;
 }
 
 /* Media Query for mobile */
@@ -184,6 +183,9 @@ h1 {
   }
   .button {
     font-size: 20px;
+  }
+  .link-button {
+    padding: 10px 15px;
   }
   .main-part {
     display: flex;
@@ -245,9 +247,6 @@ h1 {
     padding: 20px;
   }
   .footer-button {
-    /* display: flex;
-    flex-direction: row;
-    justify-content: center; */
     margin-top: 30px;
     font-size: 15px;
   }

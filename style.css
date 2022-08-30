@@ -104,7 +104,22 @@ h1 {
   border-radius: 5px;
   padding: 5px;
 }
-/* Upcomming Match  */
+
+.feature-match img {
+  width: 100%;
+  /* width: 250px;
+  height: 175px; */
+}
+.match {
+  margin-left: 10px;
+}
+.icons {
+  color: #454545;
+}
+.icon {
+  margin-left: 20px;
+}
+/* Upcomming Match  Design start*/
 .live-match {
   width: 300px;
   height: 200px;
@@ -123,20 +138,7 @@ h1 {
   justify-content: space-evenly;
   margin: 0 10px;
 }
-.feature-match img {
-  width: 100%;
-  /* width: 250px;
-  height: 175px; */
-}
-.match {
-  margin-left: 10px;
-}
-.icons {
-  color: #454545;
-}
-.icon {
-  margin-left: 20px;
-}
+/* Upcomming Match  Design end*/
 
 /* Footer  */
 .footer-container {
